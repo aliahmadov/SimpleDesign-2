@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Ahom&display=swap');
+*
+{
+    margin: 0;
+}
 body {
     background-color: rgb(225, 224, 224);
 }
 
-img {
-    margin: 0;
-}
 
 body>div {
     width: 100%;
@@ -38,8 +40,36 @@ button {
     padding: 5px;
     border: 0px;
     font-size: 20px;
+    transition: 1s;
 }
 
+.bigfont {
+    margin: 0;
+    font-size: 15px;
+    color: white;
+    font-family: 'Noto Serif Ahom', serif;
+}
+
+.bigfont1 {
+    margin: 0;
+    margin-top: 20px;
+    font-size: 22px;
+    color: white;
+    font-family: 'Noto Serif Ahom', serif;
+}
+
+.smallfont {
+    font-size: 12px;
+    color: whitesmoke;
+    opacity: 0.8;
+}
+
+
+.smallfont1 {
+    font-size: 16px;
+    color: whitesmoke;
+    opacity: 0.8;
+}
 
 progress {
     height: 5px;
@@ -66,10 +96,53 @@ progress::-webkit-progress-value {
 }
 
 
+.circleImage
+{
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    border: 3px solid white;
+    
+}
+
+.maindiv {
+    margin: auto;
+    margin-top: 100px;
+    width: 550px;
+    height: 850px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.circlePanel
+{
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    border: 3px solid white;
+    text-align: center;
+    font-size: 32px;
+    background-color: white;
+    color: gray;
+}
+
+.panel2 {
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: rgb(69, 69, 221);
+    display: inline-block;
+    width: 90%;
+    height: 180px;
+}
 
 button:hover {
     background-color: darkgray;
     color: white;
+    transition: 1s;
 }
 
 div {
